@@ -50,18 +50,39 @@ int main()
 // Using Unordered Map
 // Time Complexity : O(n)
 
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-       unordered_map<int,int> mpp;
-       for(int i=0;i<nums.size();i++){
-        int need = target - nums[i];
+#include<bits/stdc++.h>
+using namespace std;
 
-        if(mpp.find(need) != mpp.end()){
-            return {mpp[need],i};
+class Solution{
+    public:
+        vector<int> twoSum(vector<int> &nums, int target){
+            unordered_map<int,int> mpp;
+            for(int i=0;i<nums.size();i++){
+                int need = target - nums[i];
+                if(mpp.find(need) != mpp.end()){
+                    return {mpp[need],i};
+                }
+                mpp[nums[i]] = i;
+            }
+            return {};
         }
-        mpp[nums[i]] = i;
-       }
-       return {};
-    }
 };
+
+int main()
+{
+    int n;
+    cin >> n;
+    vector<int> nums(n);
+    for(int i=0;i<n;i++){
+        cin >> nums[i];
+    }
+    int target;
+    cin >> target;
+    Solution sol;
+    vector<int> result = sol.twoSum(nums,target);
+    cout << "[";
+    for(int x : result){
+        cout << x;
+    }
+    cout << "]";
+}
