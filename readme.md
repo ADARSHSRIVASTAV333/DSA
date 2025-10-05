@@ -9,6 +9,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 
 - ✅ Day 1: Solved **Two Sum** (Arrays)
 - ✅ Day 2: Solved **Two Sum** using unordered_map (Arrays)
+- ✅ Day 3: Solved **Remove Duplicates from Sorted Array** using two pointer (Arrays)
 
 
 ---
