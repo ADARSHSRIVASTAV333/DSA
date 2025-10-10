@@ -10,10 +10,10 @@ class Solution{
            
            for(int i=0;i<nums.size();i++){
                sum += nums[i];
-               if(sum > maxSum){
+               if(sum > maxSum){    // maxSum = max(maxSum,sum);
                    maxSum = sum;
                }
-               if(sum < 0){
+               if(sum < 0){         // sum = max(sum,0);
                    sum = 0;
                }
            }
