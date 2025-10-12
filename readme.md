@@ -15,6 +15,8 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 6: Solved **Valid Anagram, Reverse String** using hasharray and two pointer (Arrays)
 - ✅ Day 7: Solved **Contains Duplicate** using unordered_set (Arrays)
 - ✅ Day 8: Solved **Reverse Integer** (Arrays)
+- ✅ Day 9: Solved **Maximum Subarray** using kadane's algorithm (Arrays)
+
 
 ## Checking contribution link
 
