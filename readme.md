@@ -18,7 +18,6 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 9: Solved **Maximum Subarray** using kadane's algorithm (Arrays)
 
 
-## Checking contribution link
 
 
 ---
