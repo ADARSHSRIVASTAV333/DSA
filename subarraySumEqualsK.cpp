@@ -8,16 +8,18 @@ class Solution{
              int sum = 0;
              int count = 0;
              unordered_map<int,int> mpp;
-             mpp[0] = 1;
+             mpp[0] = 1;     // base case: subarray starting from index 0
              
              for(int i=0;i<nums.size();i++){
-                 sum += nums[i];
+
+                 sum += nums[i];  // current prefix sum
                  
-                 if(mpp.find(sum-k) != mpp.end()){
-                     count += mpp[sum-k];
+                
+                 if(mpp.find(sum-k) != mpp.end()){  
+                     count += mpp[sum-k];                 // check if there exists a prefix sum that gives a subarray sum = k
                  }
-                 
-                 mpp[sum]++;
+                
+                 mpp[sum]++;    // record the current prefix sum
              }
              return count;
          }
