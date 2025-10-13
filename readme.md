@@ -16,6 +16,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 7: Solved **Contains Duplicate** using unordered_set (Arrays)
 - ✅ Day 8: Solved **Reverse Integer** (Arrays)
 - ✅ Day 9: Solved **Maximum Subarray** using kadane's algorithm (Arrays)
+- ✅ Day 10: Solved **SubArray Sum Equals K** using prefixSum + hashing (Arrays)
 
 
 
