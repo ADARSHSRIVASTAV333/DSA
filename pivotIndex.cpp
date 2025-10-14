@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 // class Solution{
 //     public:
 //         int pivotIndex(vector<int> &nums){
@@ -23,32 +22,52 @@ using namespace std;
 //         }
 // };
 
-class Solution {
-public:
-    int pivotIndex(vector<int>& nums) {
+// class Solution {
+// public:
+//     int pivotIndex(vector<int>& nums) {
 
-        int n = nums.size();
-        int total = 0;
-        for(int i=1;i<n;i++){
-            nums[i] += nums[i-1];   //Created prefix sum array
-        }
+//         int n = nums.size();
+//         int total = 0;
+//         for(int i=1;i<n;i++){
+//             nums[i] += nums[i-1];   //Created prefix sum array
+//         }
 
-        if(nums[n-1] - nums[0] == 0) return 0;  // Check if index 0 is pivot
+//         if(nums[n-1] - nums[0] == 0) return 0;  // Check if index 0 is pivot
         
-        for(int i=1;i<n;i++){
+//         for(int i=1;i<n;i++){
 
-            int rightSum = nums[n-1] - nums[i];
-            int leftSum = nums[i-1];
+//             int rightSum = nums[n-1] - nums[i];
+//             int leftSum = nums[i-1];
 
-            if(leftSum == rightSum){
-                return i;          //pivot index
-            }
+//             if(leftSum == rightSum){
+//                 return i;          //pivot index
+//             }
             
-        }
-        return -1;    // No pivot index found
-    }
-};
+//         }
+//         return -1;    // No pivot index found
+//     }
+// };
 
+class Solution{
+    public:
+        int pivotIndex(vector<int> &nums){
+             int n = nums.size();
+             int total = 0;
+             for(int i=0;i<n;i++){
+                 total += nums[i];
+             }
+             
+             int leftSum = 0;
+             for(int i=0;i<n;i++){
+                 int rightSum = total - leftSum - nums[i];
+                 if(leftSum == rightSum){
+                     return i;
+                 }
+                 leftSum += nums[i];
+             }
+             return -1;
+        }
+};
 
 int main()
 {
