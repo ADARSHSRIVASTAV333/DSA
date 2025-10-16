@@ -19,6 +19,8 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 10: Solved **SubArray Sum Equals K** using prefixSum + hashing (Arrays)
 - ✅ Day 11: Solved **Pivot Index** using prefixSum (Arrays)
 - ✅ Day 12: Solved **Find Middle Index in Array** using prefixSum (Arrays)
+- ✅ Day 13: Solved **Longest Common Prefix** (Arrays) 
+
 
 
 
