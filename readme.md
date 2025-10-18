@@ -21,6 +21,8 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 12: Solved **Find Middle Index in Array** using prefixSum (Arrays)
 - ✅ Day 13: Solved **Longest Common Prefix** (Arrays) 
 - ✅ Day 14: Solved **Find the Difference** (String)
+- ✅ Day 15: Solved **Palindrome Number** (Math)
+
 
 
 
