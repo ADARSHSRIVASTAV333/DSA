@@ -29,31 +29,57 @@ using namespace std;
 // };
 
 // Without Using String Conversion
-// Time Complexity : O(n)
+// Time Complexity : O(log10n)
 // Space Complexity : O(1)
-class Solution{
-    public:
-        bool isPalindrome(int x){
+// class Solution{
+//     public:
+//         bool isPalindrome(int x){
             
-            if(x < 0) return false;
+//             if(x < 0) return false;
 
-            int num = x;
-            long long rev = 0;
+//             int num = x;
+//             long long rev = 0;
 
-            while(x > 0){
-                int digit = x%10;
-                rev = rev*10+digit;
-                x = x/10;
-            }
+//             while(x > 0){
+//                 int digit = x%10;
+//                 rev = rev*10+digit;
+//                 x = x/10;
+//             }
 
-            if(rev == num){
-                return true;
-            }
-            else{
-                return false;
-            }
+//             if(rev == num){
+//                 return true;
+//             }
+//             else{
+//                 return false;
+//             }
             
+//         }
+// };
+
+// Optimized Approach : Reversing half of the number
+// Time Complexity : O(log10n/2) ~ O(log10n)
+// Space Complexity : O(1)
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        
+        if(x < 0 || (x%10 == 0 && x!=0)) return false;
+        int rev = 0;
+
+        while(x > rev){        // x will contain left half and rev will contain rev right half
+            int digit = x%10;
+            rev = rev*10+digit;
+            x = x/10;
         }
+
+        if(x == rev || x == rev/10){
+            return true;
+        }
+        else{
+            return false;
+        }
+
+    }
 };
 
 int main()
