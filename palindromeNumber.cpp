@@ -1,6 +1,36 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Using String Conversion
+// Time Complexity : O(n)
+// Space Complexity : O(n)
+
+// class Solution {
+// public:
+//     bool isPalindrome(int x) {
+        
+//         if(x < 0) return false;
+
+//         string rev = "";
+//         std::string s = std::to_string(x);
+//         int n = s.length();
+
+//         for(int i=n-1;i>=0;i--){
+//            rev += s[i];
+//         }
+
+//         if(rev == s){
+//             return true;
+//         }
+//         else{
+//             return false;
+//         }
+//     }
+// };
+
+// Without Using String Conversion
+// Time Complexity : O(n)
+// Space Complexity : O(1)
 class Solution{
     public:
         bool isPalindrome(int x){
