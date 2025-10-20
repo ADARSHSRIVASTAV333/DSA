@@ -22,6 +22,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 13: Solved **Longest Common Prefix** (Arrays) 
 - ✅ Day 14: Solved **Find the Difference** (String)
 - ✅ Day 15: Solved **Palindrome Number** (Math)
+- ✅ Day 16: Solved **Happy Number** (Math)
 
 
 
