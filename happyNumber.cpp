@@ -1,7 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+// Using HashSet to detect cycles
+// Time Complexity : O(logn) (number of digits in n)
+// Space Complexity : O(logn) (in the worst case, we store all intermediate sums)
 class Solution{
     public:
         bool isHappy(int n){
