@@ -53,7 +53,7 @@ class Solution{
                 fast = getNext(getNext(fast));
             }
             
-            if(fast == 1){
+            if(fast == 1){    // return fast == 1 instead of if else
                 return true;
             }
             else{
