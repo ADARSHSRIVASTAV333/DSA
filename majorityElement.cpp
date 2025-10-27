@@ -29,22 +29,53 @@ using namespace std;
 // Time Complexity : O(n)
 // Space Complexity : O(n)
 
-class Solution {
-public:
-    int majorityElement(vector<int>& nums) {
+// class Solution {
+// public:
+//     int majorityElement(vector<int>& nums) {
 
-        int n = nums.size();
-        unordered_map<int,int> mpp;
-        for(int i=0;i<n;i++){
-            mpp[nums[i]]++;
+//         int n = nums.size();
+//         unordered_map<int,int> mpp;
+//         for(int i=0;i<n;i++){
+//             mpp[nums[i]]++;
 
-            if(mpp[nums[i]] > n/2){
-                return nums[i];
+//             if(mpp[nums[i]] > n/2){
+//                 return nums[i];
+//             }
+//         }
+
+//         return -1;
+//     }
+// };
+
+// Using Boyer-Moore Voting Algorithm
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+
+class Solution{
+    public:
+        int majorityElement(vector<int> &nums){
+            
+            int n = nums.size();
+            int count = 0;
+            int candidate;
+            
+            for(int i=0;i<n;i++){
+                
+                if(count == 0){
+                    candidate = nums[i];
+                }
+                
+                count += (nums[i] == candidate ? 1 : -1);
+                
+                // if(nums[i] == candidate){
+                //     count++;
+                // }
+                // else{
+                //     count--;
+                // }
             }
+            return candidate;
         }
-
-        return -1;
-    }
 };
 
 int main()
