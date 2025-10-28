@@ -25,6 +25,8 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 16: Solved **Happy Number** using Floyd's Cycle Detection (Math)
 - ✅ Day 17: Solved **Running Sum Of 1D Array** (Arrays)
 - ✅ Day 18: Solved **Majority Element** using Boyer Moore Voting Algorithm (Arrays)
+- ✅ Day 19: Solved **Pascal Triangle** (Arrays)
+
 
 
 
