@@ -13,10 +13,10 @@ class Solution{
         }
         
         vector<int> getRow(int rowIndex){
-            int n = rowIndex+1;
+            int n = rowIndex;
             vector<int> result;
-            for(int col=1;col<=n;col++){
-                result.push_back(pascalTriangle(n-1,col-1));
+            for(int col=0;col<=n;col++){
+                result.push_back(pascalTriangle(n,col));
             }
             return result;
         }
