@@ -13,12 +13,12 @@ class Solution{
         }
         
         vector<vector<int>> generate(int numRows){
-            int n = numRows;
+            int n = numRows;   
             vector<vector<int>> ans;
-            for(int row=1;row<=n;row++){
+            for(int row=0;row<n;row++){
                 vector<int> currentRow;
-                for(int col=1;col<=row;col++){
-                    currentRow.push_back(pascalTriangle(row-1,col-1));
+                for(int col=0;col<=row;col++){
+                    currentRow.push_back(pascalTriangle(row,col));
                 }
                 ans.push_back(currentRow);
             }
