@@ -27,6 +27,9 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 18: Solved **Majority Element** using Boyer Moore Voting Algorithm (Arrays)
 - ✅ Day 19: Solved **Pascal Triangle** using nCr / combinatorics approach (Arrays)
 - ✅ Day 20: Solved **Pascal Triangle 2** using nCr optimized row-wise computation (Arrays)
+- ✅ Day 21: Solved **Isomorphic Strings** (String)
+
+
 
 
 
