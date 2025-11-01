@@ -29,6 +29,11 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 20: Solved **Pascal Triangle 2** using nCr optimized row-wise computation (Arrays)
 - ✅ Day 21: Solved **Isomorphic Strings** (String)
 - ✅ Day 22: Solved **Valid Parenthesis** using Stack (String)
+- ✅ Day 23: Solved **Single Number** (Arrays)
+- ✅ Day 24: Solved **Contains Duplicate 2 (Contains Nearby Duplicate)** (Arrays)
+
+
+
 
 
 
