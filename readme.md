@@ -31,6 +31,8 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 22: Solved **Valid Parenthesis** using Stack (String)
 - ✅ Day 23: Solved **Single Number** (Arrays)
 - ✅ Day 24: Solved **Contains Duplicate 2 (Contains Nearby Duplicate)** (Arrays)
+- ✅ Day 25: Solved **Longest Valid Parentheses** (String)
+
 
 
 
