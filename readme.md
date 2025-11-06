@@ -35,7 +35,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 26: Solved **Generate Parentheses** using recursion + backtracking (String)
 - ✅ Day 27: Solved **Search Insert Position** using binary search (Arrays)
 - ✅ Day 28: Solved **Sort Colors** using DNF (Arrays)
-
+- ✅ Day 29: Solved **Fibonacci Number** (Math)
 
 
 
