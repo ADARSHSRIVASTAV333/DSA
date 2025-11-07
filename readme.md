@@ -36,6 +36,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 27: Solved **Search Insert Position** using binary search (Arrays)
 - ✅ Day 28: Solved **Sort Colors** using DNF (Arrays)
 - ✅ Day 29: Solved **Fibonacci Number** (Math)
+- ✅ Day 30: Solved **Count Primes** (Math)
 
 
 
