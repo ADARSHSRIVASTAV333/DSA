@@ -2,7 +2,7 @@
 using namespace std;
 
 // Time Complexity : O(n)
-// Space Complexity : O(k) where k = min(n, k)
+// Space Complexity : O(k) for temp array
 
 class Solution{
     public:
@@ -28,7 +28,7 @@ class Solution{
 };
 
 // Optimal Approach: Reversal Algorithm
-// Time Complexity : O(n)
+// Time Complexity : O(n-k) + O(k) + O(n) = O(n)
 // Space Complexity : O(1)
 class Solution {
 public:
