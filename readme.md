@@ -38,7 +38,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 29: Solved **Fibonacci Number** (Math)
 - ✅ Day 30: Solved **Count Primes** (Math)
 - ✅ Day 31: Solved **Binary Search** (Arrays)
-- ✅ Day 32: Solved **Rotate Array** (Arrays)
+- ✅ Day 32: Solved **Rotate Array** Using Reversal Algorithm (Arrays)
 
 
 
