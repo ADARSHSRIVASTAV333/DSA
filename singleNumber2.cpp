@@ -29,6 +29,10 @@ class Solution{
 // Optimized Approach : Using bitmasking
 // time complexity : O(n)
 // space complexity : O(1)
+// Approach 2: Bitmask trick using two variables
+// 'ones' holds bits that have appeared once
+// 'twos' holds bits that have appeared twice
+// Whenever a bit appears 3 times, it's removed from both 'ones' and 'twos'
 
 class Solution {
 public:
@@ -37,11 +41,11 @@ public:
         int twos = 0;
 
         for(int x : nums){
-            ones = (ones ^ x) & ~twos;
-            twos = (twos ^ x) & ~ones;
+            ones = (ones ^ x) & ~twos;   // update bits seen once
+            twos = (twos ^ x) & ~ones;   // update bits seen twice
         }
 
-        return ones;
+        return ones;   // remaining bits are from the number appearing once
     }
 };
 
