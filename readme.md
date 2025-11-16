@@ -41,7 +41,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 32: Solved **Rotate Array** Using reversal algorithm, STL Reverse function (Arrays)
 - ✅ Day 33: Solved **Sqrt(x)** Using binary Search (Math)
 - ✅ Day 34: Solved **Single Number 2** Using bit masking (Arrays)
-
+- ✅ Day 35: Solved **Merge Sorted Array** (Arrays)
 
 
 
