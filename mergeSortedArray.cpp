@@ -1,18 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Insert nums2 into nums1 and sort
-// time complexity : O((m+n)log(m+n))
+// Insert nums2 into nums1 and then sort
+// time complexity : O((m+n)log(m+n)) for sorting + O(n) for insertion
 // space complexity : O(log(m+n)) for sorting
+
 class Solution{
     public:
         void merge(vector<int> &nums1,int m,vector<int> &nums2,int n){
             int j = 0;
             for(int i=m;i<m+n;i++){
-                nums1[i] = nums2[j];
+                nums1[i] = nums2[j]; 
                 j++;
             }
-            sort(nums1.begin(),nums1.end());
+            sort(nums1.begin(),nums1.end());  
         }
 };
 
