@@ -3,7 +3,7 @@ using namespace std;
 
 // Insert nums2 into nums1 and then sort
 // time complexity : O((m+n)log(m+n)) for sorting + O(n) for insertion
-// space complexity : O(log(m+n)) for sorting
+// space complexity : O(log(m+n)) for sorting recursion stack
 
 class Solution{
     public:
