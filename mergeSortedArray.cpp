@@ -28,6 +28,7 @@ public:
         int j = n - 1;         // last element in nums2
         int k = m + n - 1;     // last position in nums1
 
+        // Compare from the back and place the larger value at the end
         while (i >= 0 && j >= 0) {
             if (nums1[i] > nums2[j]) {
                 nums1[k--] = nums1[i--];
