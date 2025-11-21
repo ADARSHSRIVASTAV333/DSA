@@ -4,7 +4,7 @@ This repository is for my daily practice of **Data Structures and Algorithms (DS
 I will be solving **1–2 problems every day** and uploading my solutions here.
 
 ---
-
+progress
 ## 🚀 Progress Log
 
 - ✅ Day 1: Solved **Two Sum** (Arrays)
