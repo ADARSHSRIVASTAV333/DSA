@@ -14,7 +14,7 @@ public:
     }
 };
 
-
+// Optimal Approach (Iterative DP)
 // Time Complexity : O(n)
 // Space Complexity : O(1)
 
@@ -34,8 +34,26 @@ class Solution{
         }
 };
 
+// Memoization Approach
+// Time Complexity : O(n)
+// Space Complexity : O(n) -> for dp array + O(n) for recursion stack
 
-
+class Solution{
+    public:
+        int climbStairs(int n){
+            vector<int> dp(n+1,-1);
+            return solve(n,dp);
+        }
+        
+        int solve(int n,vector<int> &dp){
+            if(n<=2) return n;
+            if(dp[n] != -1){
+                return dp[n];
+            }
+            dp[n] = solve(n-1,dp) + solve(n-2,dp);
+            return dp[n];
+        }
+};
 
 int main()
 {
