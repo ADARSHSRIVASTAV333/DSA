@@ -44,6 +44,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 35: Solved **Merge Sorted Array** Using two pointer from end (Arrays)
 - ✅ Day 36: Solved **Climbing Stairs** (Math)
 - ✅ Day 37: Solved **Sum of Unique Elements** Using Frequency array (Hash Table)
+- ✅ Day 38: Solved **Fizz Buzz** (Math)
 
 
 
