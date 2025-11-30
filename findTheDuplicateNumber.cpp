@@ -24,6 +24,7 @@ class Solution{
 // Optimal Approach (Binary Search on Value Range)
 // Time Complexity : O(n log n)
 // Space Complexity : O(1)
+// At every step of binary search, the value range [low, high] always contains the duplicate.
 
 class Solution {
 public:
@@ -54,6 +55,29 @@ public:
     }
 };
 
+// Optimal Approach (Floyd's Tortoise and Hare (Cycle Detection))
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+
+class Solution{
+    public:
+        int findDuplicate(vector<int> &nums){
+            int slow = nums[0];
+            int fast = nums[0];
+            do{
+                slow = nums[slow];
+                fast = nums[nums[fast]];
+            }
+            while(slow != fast);
+            
+            fast = nums[0];
+            while(slow != fast){
+                slow = nums[slow];
+                fast = nums[fast];
+            }
+            return slow;
+        }
+};
 
 int main()
 {
