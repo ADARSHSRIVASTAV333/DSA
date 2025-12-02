@@ -46,6 +46,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 37: Solved **Sum of Unique Elements** Using Frequency array (Hash Table)
 - ✅ Day 38: Solved **Fizz Buzz** (Math)
 - ✅ Day 39: Solved **Find the Duplicate Number** Using Floyd's Cycle Detection (Binary Search)
+- ✅ Day 40: Solved **Perfect Number** (Math)
 
 
 
