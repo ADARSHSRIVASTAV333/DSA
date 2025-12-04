@@ -21,6 +21,23 @@ class Solution{
         }
 };
 
+// Optimal Approach (Mathematical Formula)
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+
+class Solution {
+public:
+    int missingNumber(vector<int>& nums){
+        int n = nums.size();
+        int sum = (n*(n+1))/2;
+        int currSum = 0;
+        for(int i=0;i<nums.size();i++){
+            currSum += nums[i];
+        }
+        return sum-currSum;
+    }
+};
+
 int main()
 {
     int n;
