@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Mapping Approach
 // Time Complexity : O(n)
 // Space Complexity : O(n)
 
