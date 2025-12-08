@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+// Time Complexity : O(max(n1,n2))
+// Space Complexity : O(max(n1,n2)) where n1 and n2 are lengths of num1 and num2 respectively
 class Solution {
 public:
     string addStrings(string num1, string num2){
