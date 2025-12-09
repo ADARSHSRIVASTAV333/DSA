@@ -1,8 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// runtime error: signed integer overflow
+class Solution {
+public:
+    string addStrings(string num1, string num2){
+        long long a = stoll(num1);
+        long long b = stoll(num2);
+        return to_string(a+b);
+    }
+};
+
 // Time Complexity : O(max(n1,n2))
 // Space Complexity : O(max(n1,n2)) where n1 and n2 are lengths of num1 and num2 respectively
+
 class Solution {
 public:
     string addStrings(string num1, string num2){
