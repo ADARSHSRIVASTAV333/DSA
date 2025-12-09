@@ -48,7 +48,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 39: Solved **Find the Duplicate Number** Using Floyd's Cycle Detection (Binary Search)
 - ✅ Day 40: Solved **Perfect Number** (Math)
 - ✅ Day 41: Solved **Missing Number** Using XOR (Hash Table)
-- ✅ Day 42: Solved **Add Strings** (String)
+- ✅ Day 42: Solved **Add Strings** Using String Based Addition (String)
 
 
 
