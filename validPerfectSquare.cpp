@@ -1,3 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+// Time Complexity : O(log n)
+// Space Complexity : O(1)
+
 class Solution {
 public:
     bool isPerfectSquare(int num) {
@@ -16,3 +22,11 @@ public:
         return false;
     }
 };
+
+int main() {
+    int num;
+    cin >> num;
+    Solution obj;
+    cout << (obj.isPerfectSquare(num) ? "True" : "False");
+    return 0;
+}
