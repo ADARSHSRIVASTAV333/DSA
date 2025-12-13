@@ -1,6 +1,22 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Time Complexity : O(sqrt(n))
+// Space Complexity : O(1)
+
+class Solution {
+public:
+    bool isPerfectSquare(int num) {
+        int odd = 1;
+        while(num > 0){
+            num -= odd;
+            odd += 2;
+        }
+        return num == 0;
+    }
+};
+
+
 // Time Complexity : O(log n)
 // Space Complexity : O(1)
 
