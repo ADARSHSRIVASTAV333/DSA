@@ -14,6 +14,23 @@ class Solution{
         }
 };
 
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+// ASCII value manipulation
+
+class Solution {
+public:
+    string toLowerCase(string s){
+        for(char &c : s){
+            if(c >= 'A' && c <= 'Z'){
+                c += 32;
+                //c = c - 'A' + 'a';
+            }
+        }
+        return s;
+    }
+};
+
 int main()
 {
     string s;
