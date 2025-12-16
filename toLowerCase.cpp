@@ -31,6 +31,18 @@ public:
     }
 };
 
+// Using inbuilt function
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+
+class Solution {
+public:
+    string toLowerCase(string s){
+        transform(s.begin(),s.end(),s.begin(),::tolower);
+        return s;
+    }
+};
+
 int main()
 {
     string s;
