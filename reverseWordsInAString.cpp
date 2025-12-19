@@ -1,3 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+// Time Complexity : O(n)
+// Space Complexity : O(n)
+
 class Solution {
 public:
     string reverseWords(string s) {
@@ -24,3 +30,11 @@ public:
         return ans;
     }
 };
+
+int main()
+{
+    string s;
+    cin >> s;
+    Solution obj;
+    cout << obj.reverseWords(s);
+}
