@@ -51,7 +51,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 42: Solved **Add Strings** Using String Based Addition (String)
 - ✅ Day 43: Solved **Valid Perfect Square** Using binary Search (Math)
 - ✅ Day 44: Solved **To Lower Case** (String)
-- ✅ Day 45: Solved **Reverse Words In A String** (String)
+- ✅ Day 45: Solved **Reverse Words In A String** Using Two Pointer (String)
 
 
 
