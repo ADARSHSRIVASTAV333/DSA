@@ -11,8 +11,9 @@ class Solution{
             int b = nums[1];
             int c = nums[2];
             
+            // Sum of any two sides must be greater than the third side
             if(a+b<=c || b+c<= a || c+a<=b){
-                return "none";
+                return "none";     // Not a valid triangle
             }
             else if(a==b && b==c){
                 return "equilateral";
