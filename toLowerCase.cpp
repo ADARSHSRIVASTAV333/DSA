@@ -4,6 +4,7 @@ using namespace std;
 // Time Complexity : O(n)
 // Space Complexity : O(1)
 // inbuilt tolower() function
+// Convert each character to lowercase using tolower()
 
 class Solution{
     public:
@@ -18,6 +19,7 @@ class Solution{
 // Time Complexity : O(n)
 // Space Complexity : O(1)
 // ASCII value manipulation
+// Convert uppercase letters to lowercase using ASCII value difference
 
 class Solution {
 public:
@@ -35,6 +37,7 @@ public:
 // Using inbuilt function
 // Time Complexity : O(n)
 // Space Complexity : O(1)
+// Convert entire string to lowercase using STL transform()
 
 class Solution {
 public:
