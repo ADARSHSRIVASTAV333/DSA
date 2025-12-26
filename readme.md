@@ -53,6 +53,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 44: Solved **To Lower Case** (String)
 - ✅ Day 45: Solved **Reverse Words In A String** Using Two Pointer (String)
 - ✅ Day 46: Solved **Type Of Triangle** (Math)
+- ✅ Day 47: Solved **Transpose Matrix** (Arrays)
 
 
 
