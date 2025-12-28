@@ -55,6 +55,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 46: Solved **Type Of Triangle** (Math)
 - ✅ Day 47: Solved **Transpose Matrix** (Arrays)
 - ✅ Day 48: Solved **Rotate Image** (Math)
+- ✅ Day 49: Solved **Spiral Matrix** (Arrays)
 
 
 
