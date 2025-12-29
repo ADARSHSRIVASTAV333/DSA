@@ -56,6 +56,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 47: Solved **Transpose Matrix** (Arrays)
 - ✅ Day 48: Solved **Rotate Image** (Math)
 - ✅ Day 49: Solved **Spiral Matrix** (Arrays)
+- ✅ Day 50: Solved **Search a 2D Matrix** (Arrays)
 
 
 
