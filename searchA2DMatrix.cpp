@@ -1,0 +1,38 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+// Time Complexity : O(m * n)
+// Space Complexity : O(1)
+
+class Solution{
+    public:
+        bool searchMatrix(vector<vector<int>> &matrix,int target){
+            int m = matrix.size();
+            int n = matrix[0].size();
+            
+            for(int i=0;i<m;i++){
+                for(int j=0;j<n;j++){
+                    if(matrix[i][j] == target){
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+};
+
+int main()
+{
+    int row,col;
+    cin >> row >> col;
+    int target;
+    cin >> target;
+    vector<vector<int>> matrix(row,vector<int>(col));
+    for(int i=0;i<row;i++){
+        for(int j=0;j<col;j++){
+            cin >> matrix[i][j];
+        }
+    }
+    Solution obj;
+    cout << (obj.searchMatrix(matrix,target) ? "true" : "false");
+}
