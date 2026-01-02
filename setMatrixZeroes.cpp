@@ -2,7 +2,7 @@
 using namespace std;
 
 // Time Complexity : O(m * n)
-// Space Complexity : O(m + n)
+// Space Complexity : O(m + n) for two auxiliary arrays
 
 class Solution{
     public:
