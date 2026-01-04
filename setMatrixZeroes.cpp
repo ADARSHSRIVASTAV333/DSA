@@ -7,8 +7,11 @@ using namespace std;
 class Solution{
     public:
         void setZeroes(vector<vector<int>> &matrix){
+
             int m = matrix.size();
             int n = matrix[0].size();
+            
+            // Arrays to mark rows and columns that need to be zeroed
             vector<bool> zeroRow(m,false);
             vector<bool> zeroCol(n,false);
             
