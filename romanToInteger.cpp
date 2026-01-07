@@ -69,5 +69,5 @@ int main()
     string s;
     cin >> s;
     Solution obj;
-    cout << obj.romanToInt(s);
+    cout << obj.romanToInteger(s);
 }
