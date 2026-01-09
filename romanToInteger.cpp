@@ -3,7 +3,7 @@ using namespace std;
 
 // Time Complexity : O(n)
 // Space Complexity : O(1)
-// Approach : Hashing
+// Approach : Left to Right Traversal
 
 class Solution{
     public:
