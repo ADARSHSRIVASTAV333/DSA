@@ -60,6 +60,8 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 51: Solved **Search a 2D Matrix II** (Arrays)
 - ✅ Day 52: Solved **Set Matrix Zeroes** (Arrays)
 - ✅ Day 53: Solved **Roman to Integer** using unordered map (Math)
+- ✅ Day 54: Solved **Power Of Two** (Math)
+
 
 
 
