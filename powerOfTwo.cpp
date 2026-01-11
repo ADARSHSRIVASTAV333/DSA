@@ -14,6 +14,19 @@ class Solution{
         }
 };
 
+// Using Built-in Function
+// Time Complexity : O(1)
+// Space Complexity : O(1)
+
+class Solution {
+public:
+    bool isPowerOfTwo(int n){
+        if (n<=0) return false;
+        if(__builtin_popcount(n) == 1) return true;
+        else return false;
+    }
+};
+
 int main()
 {
     int n;
