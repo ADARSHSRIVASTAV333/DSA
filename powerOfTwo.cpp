@@ -12,6 +12,8 @@ class Solution{
             int res = (n & (n-1));
             if(res == 0) return true;
             else return false;
+
+            // OR return (n > 0) && ((n & (n - 1)) == 0);
         }
 };
 
