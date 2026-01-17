@@ -62,6 +62,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 53: Solved **Roman to Integer** using unordered map (Math)
 - ✅ Day 54: Solved **Power Of Two** (Math)
 - ✅ Day 55: Solved **Add Two Integers** (Math)
+- ✅ Day 56: Solved **Is Subsequence** (String)
 
 
 
