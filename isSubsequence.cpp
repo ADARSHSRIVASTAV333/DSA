@@ -3,6 +3,7 @@ using namespace std;
 
 // Time Complexity : O(t.length())
 // Space Complexity : O(1)
+// Two Pointer Approach
 
 class Solution{
     public:
@@ -19,6 +20,9 @@ class Solution{
         }
 };
 
+// Time Complexity : O(t.length())
+// Space Complexity : O(1)
+// Two Pointer Approach
 
 class Solution {
 public:
