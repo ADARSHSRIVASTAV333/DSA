@@ -3,6 +3,7 @@ using namespace std;
 
 // Time Complexity : O(n*m)
 // Space Complexity : O(k) where k is the size of intersection set
+// Brute Force Approach
 
 class Solution{
     public:
