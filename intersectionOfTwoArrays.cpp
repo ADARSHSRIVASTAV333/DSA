@@ -25,8 +25,8 @@ class Solution{
 };
 
 // Time Complexity : O(n + m)
-// Space Complexity : O(n + k) where k is the size of intersection set
-// Optimal Approach
+// Space Complexity : O(n + k) where k is the size of intersection set -> o(k) for ans and o(n) for unordered_set
+// Optimal Approach: Using Hashing 
 
 class Solution {
 public:
