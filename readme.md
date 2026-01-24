@@ -63,7 +63,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 54: Solved **Power Of Two** (Math)
 - ✅ Day 55: Solved **Add Two Integers** (Math)
 - ✅ Day 56: Solved **Is Subsequence** Using Two pointer (String)
-- ✅ Day 57: Solved **Intersection Of Two Arrays** (Arrays)
+- ✅ Day 57: Solved **Intersection Of Two Arrays** Using hashing (Arrays)
 
 
 
