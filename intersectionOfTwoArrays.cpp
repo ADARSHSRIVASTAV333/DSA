@@ -8,7 +8,7 @@ using namespace std;
 class Solution{
     public:
         vector<int> intersection(vector<int> &nums1,vector<int> &nums2){
-            unordered_set<int> ans;
+            unordered_set<int> ans; // to store unique intersection elements
             vector<int> res;
             for(int i=0;i<nums1.size();i++){
                 for(int j=0;j<nums2.size();j++){
