@@ -11,6 +11,21 @@ public:
     }
 };
 
+// Time Complexity : O(k) where k is the number of 1 bits in n
+// Space Complexity : O(1)
+
+class Solution {
+public:
+    int hammingWeight(int n) {
+        int count = 0;
+        while(n){
+            n &= (n-1);
+            count++;
+        }
+        return count;
+    }
+};
+
 int main()
 {
     int n;
