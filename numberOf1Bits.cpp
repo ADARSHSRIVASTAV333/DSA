@@ -19,7 +19,7 @@ public:
     int hammingWeight(int n) {
         int count = 0;
         while(n){
-            n &= (n-1);
+            n &= (n-1); // remove the last set bit and count it
             count++;
         }
         return count;
