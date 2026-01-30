@@ -3,7 +3,7 @@ using namespace std;
 
 // Time Complexity : O(n*m)
 // Space Complexity : O(k) where k is the size of intersection set
-// Brute Force Approach
+// Brute Force Approach: Using Two Nested Loops
 
 class Solution{
     public:
@@ -31,12 +31,12 @@ class Solution{
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-        unordered_set<int> s(nums1.begin(), nums1.end());
-        unordered_set<int> ans;
+        unordered_set<int> s(nums1.begin(), nums1.end()); 
+        unordered_set<int> ans; 
 
         for (int x : nums2) {
             if (s.count(x)) {
-                ans.insert(x);
+                ans.insert(x);  
             }
         }
 
