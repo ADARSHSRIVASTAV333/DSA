@@ -36,11 +36,11 @@ public:
 
         for (int x : nums2) {
             if (s.count(x)) {
-                ans.insert(x);  
+                ans.insert(x);  // Insert into intersection set
             }
         }
 
-        return vector<int>(ans.begin(), ans.end());
+        return vector<int>(ans.begin(), ans.end()); // Convert set to vector and return
     }
 };
 
