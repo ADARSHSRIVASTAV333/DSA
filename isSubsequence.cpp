@@ -29,7 +29,8 @@ public:
     bool isSubsequence(string s, string t) {
         int sptr = 0;
         for(int i=0;i<t.length();i++){
-            if(sptr < s.length() && s[sptr] == t[i]){
+            // move s pointer only when there is a match
+            if(sptr < s.length() && s[sptr] == t[i]){  
                 sptr++;
             } 
         }
