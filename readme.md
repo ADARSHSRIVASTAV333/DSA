@@ -65,6 +65,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 56: Solved **Is Subsequence** Using Two pointer (String)
 - ✅ Day 57: Solved **Intersection Of Two Arrays** Using hashing (Arrays)
 - ✅ Day 58: Solved **Number Of 1 Bits** Using Brian Kernighan’s Algorithm (Bit Manipulation)
+- ✅ Day 59: Solved **Sum Multiples** (Math)
 
 
 
