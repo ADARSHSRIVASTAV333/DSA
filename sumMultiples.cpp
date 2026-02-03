@@ -3,6 +3,7 @@ using namespace std;
 
 // Time Complexity : O(n)
 // Space Complexity : O(1)
+// Brute Force Approach: Using Simple Iteration
 
 class Solution{
     public:
@@ -19,6 +20,7 @@ class Solution{
 
 // Time Complexity : O(1)
 // Space Complexity : O(1)
+// Mathematical Approach using Inclusion-Exclusion Principle
 
 class Solution {
 public:
@@ -31,7 +33,7 @@ public:
 
     int sumOfMultiples(int n)
     {
-        return sum(3,n) + sum(5,n) + sum(7,n) - sum(15,n) - sum(21,n) - sum(35,n) + sum(105,n);
+        return sum(3,n) + sum(5,n) + sum(7,n) - sum(15,n) - sum(21,n) - sum(35,n) + sum(105,n); // Inclusion-Exclusion Principle
     }
 
 };
