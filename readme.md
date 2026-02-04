@@ -66,6 +66,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 57: Solved **Intersection Of Two Arrays** Using hashing (Arrays)
 - ✅ Day 58: Solved **Number Of 1 Bits** Using Brian Kernighan’s Algorithm (Bit Manipulation)
 - ✅ Day 59: Solved **Sum Multiples** (Math)
+- ✅ Day 60: Solved **Third Maximum Number** (Arrays)
 
 
 
