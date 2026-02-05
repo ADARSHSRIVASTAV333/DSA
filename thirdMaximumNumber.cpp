@@ -12,7 +12,8 @@ class Solution{
             long long max3 = LLONG_MIN;
             
             for(int i=0;i<nums.size();i++){
-                if(nums[i] == max || nums[i] == max2 || nums[i] == max3){
+
+                if(nums[i] == max || nums[i] == max2 || nums[i] == max3){  // to handle duplicates, if the current number is already one of the maxes, we will skip it
                     continue;
                 }
                 
@@ -29,7 +30,8 @@ class Solution{
                     max3 = nums[i];
                 }
             }
-            if(max3 == LLONG_MIN){
+
+            if(max3 == LLONG_MIN){   // if third max doesn't exist, then we will return the maximum number
                 return max;
             }
             return max3;
