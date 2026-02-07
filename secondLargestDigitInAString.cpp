@@ -29,6 +29,30 @@ class Solution{
         }
 };
 
+// Optimized Code
+
+class Solution {
+public:
+    int secondHighest(string s) {
+        int max = -1;
+        int max2 = -1;
+        for(char c : s){
+            if(isdigit(c)){
+                int x = c - '0';
+
+                if(x > max){
+                    max2 = max;
+                    max = x;
+                }
+                else if(x > max2 && x < max){
+                    max2 = x;
+                }
+            }
+        }
+        return max2;
+    }
+};
+
 int main()
 {
     string s;
