@@ -29,6 +29,8 @@ class Solution{
         }
 };
 
+// Time Complexity : O(n)
+// Space Complexity : O(1)
 // Optimized Code
 
 class Solution {
@@ -38,12 +40,13 @@ public:
         int max2 = -1;
         for(char c : s){
             if(isdigit(c)){
-                int x = c - '0';
+                int x = c - '0';  // to convert char to int
 
                 if(x > max){
                     max2 = max;
                     max = x;
                 }
+
                 else if(x > max2 && x < max){
                     max2 = x;
                 }
