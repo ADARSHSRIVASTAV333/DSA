@@ -3,6 +3,7 @@ using namespace std;
 
 // Time Complexity : O(n)
 // Space Complexity : O(n)
+// Brute Force Approach: Using Hash Map
 
 class Solution{
     public:
@@ -23,6 +24,7 @@ class Solution{
 
 // Time Complexity : O(n)
 // Space Complexity : O(1)
+// Optimized Code : Using Frequency Array
 
 class Solution {
 public:
