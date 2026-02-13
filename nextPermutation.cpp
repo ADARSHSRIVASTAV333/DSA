@@ -3,6 +3,7 @@ using namespace std;
 
 // Time Complexity : O(n)
 // Space Complexity : O(1)
+// Brute Force Approach: Using STL Function
 
 class Solution{
     public:
