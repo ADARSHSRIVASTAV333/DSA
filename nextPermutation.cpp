@@ -8,7 +8,7 @@ using namespace std;
 class Solution{
     public:
         void nextPermutation(vector<int> &nums){
-            next_permutation(nums.begin(),nums.end());
+            next_permutation(nums.begin(),nums.end());  // STL function to get the next permutation of the given array
         }
 };
 
