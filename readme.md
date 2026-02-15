@@ -70,6 +70,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 61: Solved **Second Largest Digit in a String** (String)
 - ✅ Day 62: Solved **Find Lucky Integer in an array** (Arrays)
 - ✅ Day 63: Solved **Next Permutation** (Arrays)
+- ✅ Day 64: Solved **Add Digits** (Math)
 
 
 
