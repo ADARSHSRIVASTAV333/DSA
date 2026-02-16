@@ -13,7 +13,28 @@ public:
     }
 };
 
+// Time Complexity : O(log n)
+// Space Complexity : O(1)
+// Brute Force Approach: Iteratively sum the digits until a single digit is obtained
 
+class Solution {
+public:
+    int addDigits(int num) {
+
+        int sum = 0;
+        while (num > 0 || sum >= 10){
+            if (num == 0) {
+                num = sum;
+                sum = 0;
+            }
+
+            sum += num % 10;
+            num /= 10;
+        }
+
+        return sum;
+    }
+};
 
 
 int main()
