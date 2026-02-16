@@ -3,6 +3,7 @@ using namespace std;
 
 // Time Complexity : O(1)
 // Space Complexity : O(1)
+// Using Digital Root Concept: digital_root(n) = 1 + (n - 1) % 9
 
 class Solution {
 public:
@@ -11,6 +12,9 @@ public:
         return 1 + (num-1) % 9;
     }
 };
+
+
+
 
 int main()
 {
