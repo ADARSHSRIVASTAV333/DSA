@@ -22,14 +22,14 @@ public:
     int addDigits(int num) {
 
         int sum = 0;
-        while (num > 0 || sum >= 10){
+        while (num > 0 || sum >= 10){   // Continue until num becomes 0 and sum is a single digit
             if (num == 0) {
                 num = sum;
                 sum = 0;
             }
 
-            sum += num % 10;
-            num /= 10;
+            sum += num % 10;         // Add the last digit of num to sum
+            num /= 10;               // Remove the last digit from num
         }
 
         return sum;
