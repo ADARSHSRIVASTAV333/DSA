@@ -14,6 +14,10 @@ class Solution{
 
 // Time Complexity : O(n)
 // Space Complexity : O(1)
+// Optimal Approach: Using the following steps:
+// 1. Find first decreasing element from right (pivot).
+// 2. Swap it with the next greater element on the right.
+// 3. Reverse the suffix to get the next permutation.
 
 class Solution {
 public:
