@@ -25,19 +25,19 @@ public:
         int n = nums.size();
         int i = n - 2;
 
-        while(i >= 0 && nums[i] >= nums[i + 1]) {
+        while(i >= 0 && nums[i] >= nums[i + 1]) {  // Find the first decreasing element from the right
             i--;
         }
 
-        if(i >= 0) {
+        if(i >= 0) {                        // If such an element exists
             int j = n - 1;
-            while(nums[j] <= nums[i]) {
+            while(nums[j] <= nums[i]) {     // Find the next greater element to the right of the pivot
                 j--;
             }
-            swap(nums[i], nums[j]);
+            swap(nums[i], nums[j]);         // Swap the pivot with the next greater element
         }
 
-        reverse(nums.begin() + i + 1, nums.end());
+        reverse(nums.begin() + i + 1, nums.end());       // Reverse the suffix to get the next permutation
     }
 };
 
