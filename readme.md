@@ -71,6 +71,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 62: Solved **Find Lucky Integer in an array** (Arrays)
 - ✅ Day 63: Solved **Next Permutation** (Arrays)
 - ✅ Day 64: Solved **Add Digits** (Math)
+- ✅ Day 65: Solved **Plus One** (Math)
 
 
 
