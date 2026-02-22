@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+// Brute Force Approach: Iterate from the end of the array, add one to the last digit and handle carry if needed.
+
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
