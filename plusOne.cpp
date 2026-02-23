@@ -10,7 +10,7 @@ public:
     vector<int> plusOne(vector<int>& digits) {
         int n = digits.size();
         
-        for (int i = n - 1; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--) {   // Start from the last digit
             if (digits[i] < 9) {
                 digits[i]++;      // Add one if no carry needed
                 return digits;   // Done
@@ -19,7 +19,7 @@ public:
         }
         
         // If all digits were 9
-        digits.insert(digits.begin(), 1);
+        digits.insert(digits.begin(), 1);   // Insert 1 at the beginning
         return digits;
     }
 };
