@@ -72,6 +72,7 @@ I will be solving **1–2 problems every day** and uploading my solutions here.
 - ✅ Day 63: Solved **Next Permutation** (Arrays)
 - ✅ Day 64: Solved **Add Digits** (Math)
 - ✅ Day 65: Solved **Plus One** (Math)
+- ✅ Day 66: Solved **Harshad Number** (Math)
 
 
 
