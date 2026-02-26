@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Time Complexity : O(log n)  (number of digits in x)
+// Space Complexity : O(1)
+
 class Solution {
 public:
     int sumOfTheDigitsOfHarshadNumber(int x) {
