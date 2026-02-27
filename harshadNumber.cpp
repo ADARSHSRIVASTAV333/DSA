@@ -10,12 +10,12 @@ public:
         int sum = 0;
         int temp = x;
         
-        while(temp>0){
+        while(temp>0){   // Calculate the sum of digits of x
             sum += temp % 10;
             temp = temp / 10;
         }
 
-        if(x % sum == 0){
+        if(x % sum == 0){  // Check if x is divisible by the sum of its digits
             return sum;
         }
         return -1;
