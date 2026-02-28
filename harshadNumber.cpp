@@ -7,6 +7,7 @@ using namespace std;
 class Solution {
 public:
     int sumOfTheDigitsOfHarshadNumber(int x) {
+         
         int sum = 0;
         int temp = x;
         
@@ -21,6 +22,23 @@ public:
         return -1;
     }
 };
+
+// Time Complexity : O(log n)  (number of digits in x)
+// Space Complexity : O(1)
+
+class Solution {
+public:
+    int sumOfTheDigitsOfHarshadNumber(int x) {
+        int sum = 0;
+
+        for (int temp = x; temp > 0; temp /= 10) {
+            sum += temp % 10;
+        }
+
+        return (x % sum == 0) ? sum : -1;
+    }
+};
+
 
 int main()
 {
