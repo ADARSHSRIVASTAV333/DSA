@@ -25,6 +25,7 @@ public:
 
 // Time Complexity : O(log n)  (number of digits in x)
 // Space Complexity : O(1)
+// Optimized Approach: Calculate the sum of digits in a single pass without using an extra variable for temp
 
 class Solution {
 public:
