@@ -3,6 +3,8 @@ using namespace std;
 
 // Time Complexity : O(log n)  (number of digits in x)
 // Space Complexity : O(1)
+// Approach: Calculate the sum of digits of x and check if x is divisible by that sum. If it is, return the sum;
+// otherwise, return -1.
 
 class Solution {
 public:
