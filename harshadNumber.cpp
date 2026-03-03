@@ -42,6 +42,24 @@ public:
     }
 };
 
+// Time Complexity : O(log n)  (number of digits in x)
+// Space Complexity : O(1)
+// Alternative Approach: Convert the number to a string to calculate the sum of digits
+
+class Solution {
+public:
+    int sumOfTheDigitsOfHarshadNumber(int x) {
+        string s = to_string(x);
+        int sum = 0;
+
+        for(char c : s) {
+            sum += c - '0';
+        }
+
+        return (sum != 0 && x % sum == 0) ? sum : -1;
+    }
+};
+
 
 int main()
 {
