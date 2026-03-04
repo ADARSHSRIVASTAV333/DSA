@@ -53,11 +53,10 @@ public:
         int sum = 0;
 
         for(char c : s) {
-            sum += c - '0';
+            sum += c - '0'; // Convert character to integer by subtracting '0'
         }
 
-        return (sum != 0 && x % sum == 0) ? sum : -1;
-    }
+        return (sum != 0 && x % sum == 0) ? sum : -1;   // Check if sum is not zero to avoid division by zero
 };
 
 
