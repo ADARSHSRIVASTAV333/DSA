@@ -36,6 +36,25 @@ public:
     }
 };
 
+// Time Complexity : O(log n)
+// Space Complexity : O(1)
+// Recursive Approach: Recursively sum the digits until a single digit is obtained
+
+class Solution {
+public:
+    int addDigits(int num) {
+        if (num < 10) return num;   // base case
+
+        int sum = 0;
+        while (num > 0) {
+            sum += num % 10;
+            num /= 10;
+        }
+
+        return addDigits(sum);  // recursive call
+    }
+};
+
 
 int main()
 {
